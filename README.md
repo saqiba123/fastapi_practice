@@ -9,12 +9,11 @@ This is a simple example project demonstrating the use of FastAPI for building w
    ```bash
    python -m venv env
 2. ** Activate the Virtual Environment:
-   # For Windows
+ 
     ```bash
-   .\env\Scripts\activate
-    
-    ```bash
-     source env/bin/activate
+      .\env\Scripts\activate
+    OR
+       source env/bin/activate
 3. ** Install Dependencies:
     ```bash
       pip install fastapi uvicorn
