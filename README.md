@@ -1,4 +1,4 @@
-# FastAPI Example Project
+# FastAPI PRACTICE
 
 This is a simple example project demonstrating the use of FastAPI for building web APIs in Python.
 
