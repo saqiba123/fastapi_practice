@@ -10,16 +10,22 @@ This is a simple example project demonstrating the use of FastAPI for building w
    python -m venv env
 2. ** Activate the Virtual Environment:
    # For Windows
+    ```bash
    .\env\Scripts\activate
-   # For macOS/Linux
-  source env/bin/activate
+    
+    ```bash
+     source env/bin/activate
 3. ** Install Dependencies:
-uvicorn main:app --reload
-4. ** To run the API, execute the following command:
-uvicorn main:app --reload
+    ```bash
+      pip install fastapi uvicorn
+
+5. ** To run the API, execute the following command:
+    ```bash
+      uvicorn main:app --reload
 
 
 # Endpoints
+
 GET /test/
 
 Returns a simple JSON response.
